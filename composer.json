@@ -15,6 +15,6 @@
   },
   "scripts": {
     "game": "php run-game.php",
-    "test": "phpunit "
+    "test": "vendor/bin/phpunit -c tests/phpunit.xml"
   }
 }
